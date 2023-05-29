@@ -47,7 +47,7 @@ for i in years_list[1:]:
 #%%
 # Export concatenated df into csv
 os.makedirs('combined_data', exist_ok=True)
-df_integrate.to_csv('combined_data/combined_data.csv')
+df_integrate.to_csv('combined_data/combined_data.csv', index=False)
 
 #%%
 #%%
